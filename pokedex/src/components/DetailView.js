@@ -2,6 +2,10 @@ import React from 'react';
 import './styles/DetailView.css';
 
 const DetailView = () => {
+    const DetailView = ({ pokemon }) => {
+        const { id, name, sprite, type} = pokemon;
+    }
+
     return (
         <section>
             <img className="sprite-image" />
